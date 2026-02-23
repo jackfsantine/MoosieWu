@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="top-strip">Our Story • Flint, Michigan • Coupleswear Built with Love</div>
+  <div class="topbar">Our Story • Flint Built • Love Inspired</div>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="index.html">Inspired By <span>Love</span></a>
+      <a class="brand" href="index.html"><img src="logo.svg" alt="Inspired By Love logo" /><div class="brand-text"><b>Inspired By Love</b><span>Flint, Michigan</span></div></a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="shop.html">Shop</a></li>
@@ -20,23 +20,34 @@
     </div>
   </header>
 
-  <main class="section container">
-    <div class="about-grid">
-      <article class="info-box">
-        <h1>About Inspired By Love</h1>
-        <p>We are a local Flint, Michigan company creating matching men’s and women’s clothing designed for couples. Our focus is simple: clean design, quality comfort, and meaningful connection.</p>
-        <p>The light-bulb icon represents creative energy, partnership, and the spark behind every collection.</p>
-        <h2>Shopify Direction</h2>
-        <p>This site is intentionally structured for easy Shopify migration across pages, collections, and products.</p>
-        <a class="btn btn-accent" href="shop.html">Explore Products</a>
-      </article>
-      <article>
-        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80" alt="Couple in coordinated outfits" />
-      </article>
-    </div>
+  <main class="container section about-layout">
+    <article class="panel">
+      <h1>About Inspired By Love</h1>
+      <p>Inspired By Love is a local Flint, Michigan brand creating modern apparel for men and women. We focus on couple sets that feel connected, plus individual pieces that stand alone with confidence.</p>
+      <p>Our logo’s lightbulb symbolizes ideas, connection, and the spark that shapes each collection.</p>
+      <h2>What We Sell</h2>
+      <ul class="checks">
+        <li>Shirts for everyday essentials and statement graphics</li>
+        <li>Hoodies in matching couple sets and solo fits</li>
+        <li>Sweatpants built for comfort and coordinated styling</li>
+        <li>Hats that complete the look</li>
+      </ul>
+      <h2>Shopify Plan</h2>
+      <p>This website structure is intentionally designed for Shopify migration: each page can map directly to Shopify pages, product collections, and discount campaigns.</p>
+      <a class="btn" href="shop.html">Start Shopping</a>
+    </article>
+
+    <aside class="panel">
+      <img class="photo" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80" alt="Couple in coordinated outfits" />
+      <div class="card-body">
+        <span class="tag">Flint, Michigan</span>
+        <h3>Community + Quality</h3>
+        <p class="meta">Built locally, designed for online shoppers everywhere.</p>
+      </div>
+    </aside>
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><p>© <span id="year"></span> Inspired By Love • Flint, MI</p><p>Inspired By Love. Worn Together.</p></div></footer>
+  <footer class="footer"><div class="container footer-grid"><p>© <span data-year></span> Inspired By Love • Flint, MI</p><p>Inspired By Love. Worn Together.</p></div></footer>
   <script src="script.js"></script>
 </body>
 </html>

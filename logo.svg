@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Inspired By Love lightbulb logo">
+  <rect width="180" height="180" fill="transparent"/>
+  <g fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 20c-28 0-50 22-50 50 0 18 9 31 22 40 8 5 12 13 12 21h32c0-8 4-16 12-21 13-9 22-22 22-40 0-28-22-50-50-50z"/>
+    <path d="M75 74l17 10-18 10 18 10"/>
+    <line x1="68" y1="141" x2="112" y2="141"/>
+    <line x1="66" y1="152" x2="114" y2="152"/>
+    <path d="M83 162h14"/>
+  </g>
+</svg>
